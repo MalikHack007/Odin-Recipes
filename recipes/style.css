@@ -1,0 +1,24 @@
+.heading{
+    font-family: "Sofia", sans-serif;
+    background-color: orange;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+img{
+    height:400px;
+    width: auto;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.imgcontainer{
+    text-align: center;
+}
+
+body{
+    margin-right: 30px;
+    margin-left: 30px;
+}
