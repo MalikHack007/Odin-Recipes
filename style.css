@@ -1,0 +1,77 @@
+.title{
+    background-color: aqua;
+    display: inline-flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.parent{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.imagecontainer{
+    display:inline-flex;
+    align-items: center;
+}
+
+#poticon{
+    height:90px;
+    width: auto;
+    display:inline;
+}
+
+.recipeitems{
+    height:300px;
+    width: auto;
+}
+
+.linkcontainer{
+    display:flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 1300px; 
+    gap: 50px 170px;
+}
+
+.menucontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.captions{
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -51%); 
+    margin: 0px;
+    font-size: 40px;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(0 0 0 / 50%);
+    visibility: hidden;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    text-align: center;
+}
+
+.fooditemcontainer{
+    position:relative;
+}
+
+.fooditemcontainer:hover .captions{
+    visibility: visible;
+}
